@@ -1,0 +1,39 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+form{
+    max-width: 600px;   
+    margin: 95px auto;
+}
+
+textarea{
+    height: 300px !important;
+    padding-left: 35px !important;
+}
+form input:not([type="submit"]) + i{
+    height: 0;
+    float: left;
+    position: relative;
+    top: -41px;
+    left: 11px;
+}
+form input{
+    padding-left: 35px !important;
+}
+form input[type="submit"] + i{
+    display: block;
+    position: relative;
+    float: left;
+    top: -27px;
+    left: 6px;
+    color: #fff;
+}
+.textarea{
+    position: relative;
+    float: left;
+    top: 29px;
+    left: 11px;
+    color: #111;
+    z-index: 999;
+
+}
